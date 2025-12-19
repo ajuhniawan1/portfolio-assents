@@ -9,8 +9,15 @@
     "stars": 245,
     "forks": 32,
     "language": "TypeScript, React, Tailwind, Golang",
-    "content": "This comprehensive web application provides real-time monitoring of EDC (Electronic Data Capture) transaction activities for Bank BNI. The system enables bank administrators and technical teams to track, analyze, and manage all payment terminal transactions across multiple locations.\\n\\nThe application features a modern, responsive dashboard built with React and TypeScript, offering intuitive data visualization through charts and tables. The backend, powered by Golang, ensures high performance and reliability in processing large volumes of transaction data.\\n\\nKey capabilities include transaction filtering by date range, terminal ID, merchant information, and transaction status. The system also provides detailed analytics, automated alerts for failed transactions, and comprehensive reporting features that help identify trends and potential issues.",
-    "gallery": ["/img/Bank_BNI/1.png", "/img/Bank_BNI/2.png", "/img/Bank_BNI/3.png", "/img/Bank_BNI/4.png", "/img/Bank_BNI/5.png", "/img/Bank_BNI/6.png"],
+    "content": "This comprehensive web application provides real-time monitoring of EDC (Electronic Data Capture) transaction activities for Bank BNI.\n\nThe application features a modern, responsive dashboard built with React and TypeScript, offering intuitive data visualization through charts and tables. The backend, powered by Golang, ensures high performance and reliability in processing large volumes of transaction data.\n\nKey capabilities include transaction filtering by date range, terminal ID, merchant information, and transaction status. The system also provides detailed analytics, automated alerts for failed transactions, and comprehensive reporting features that help identify trends and potential issues.",
+    "gallery": [
+      "/img/Bank_BNI/1.png",
+      "/img/Bank_BNI/2.png",
+      "/img/Bank_BNI/3.png",
+      "/img/Bank_BNI/4.png",
+      "/img/Bank_BNI/5.png",
+      "/img/Bank_BNI/6.png"
+    ],
     "features": [
       "Real-time transaction monitoring dashboard",
       "Advanced filtering and search capabilities",
@@ -21,7 +28,14 @@
       "Role-based access control",
       "Transaction history and audit trail"
     ],
-    "techStack": ["TypeScript", "React", "Tailwind CSS", "Golang", "PostgreSQL", "REST API"]
+    "techStack": [
+      "TypeScript",
+      "React",
+      "Tailwind CSS",
+      "Golang",
+      "PostgreSQL",
+      "REST API"
+    ]
   },
   {
     "title": "Web Key Bank Mestika",
@@ -33,8 +47,14 @@
     "stars": 1240,
     "forks": 387,
     "language": "PHP, JavaScript, MySQL",
-    "content": "Web Key Bank Mestika is a comprehensive online banking solution designed to provide customers with secure and convenient access to their banking services. This platform enables users to perform various banking operations from the comfort of their homes or offices.\\n\\nThe system is built with a focus on security, implementing multiple layers of authentication including OTP verification, security questions, and encrypted communications. The user interface is designed to be intuitive and accessible, making it easy for customers of all technical levels to navigate and use the platform.\\n\\nThe platform supports a wide range of banking operations including account balance inquiries, fund transfers between accounts, bill payments, transaction history viewing, and financial reporting. The system also includes features for managing beneficiaries, scheduling recurring payments, and setting up transaction alerts.",
-    "gallery": ["/img/NPAY/1.png", "/img/NPAY/2.png", "/img/NPAY/3.png", "/img/NPAY/4.png", "/img/NPAY/5.png"],
+    "content": "Web Key Bank Mestika is a comprehensive online banking solution designed to provide customers with secure and convenient access to their banking services.\n\nThe system is built with a focus on security, implementing multiple layers of authentication including OTP verification, security questions, and encrypted communications.\n\nThe platform supports account balance inquiries, fund transfers, bill payments, transaction history viewing, and financial reporting.",
+    "gallery": [
+      "/img/NPAY/1.png",
+      "/img/NPAY/2.png",
+      "/img/NPAY/3.png",
+      "/img/NPAY/4.png",
+      "/img/NPAY/5.png"
+    ],
     "features": [
       "Secure login with multi-factor authentication",
       "Account balance and transaction history",
@@ -46,11 +66,18 @@
       "Financial reports and statements",
       "Customer support integration"
     ],
-    "techStack": ["PHP", "JavaScript", "jQuery", "MySQL", "Bootstrap", "SSL/TLS"]
+    "techStack": [
+      "PHP",
+      "JavaScript",
+      "jQuery",
+      "MySQL",
+      "Bootstrap",
+      "SSL/TLS"
+    ]
   },
   {
     "title": "TMS Mestika",
-    "description": "A configuration management system for EDC devices, enabling secure and efficient setup of IP, port, and merchant information.",
+    "description": "A configuration management system for EDC devices.",
     "logo": "/logos/subtrackt.svg",
     "link": "",
     "slug": "tms-mestika",
@@ -58,21 +85,33 @@
     "stars": 89,
     "forks": 15,
     "language": "PHP, JavaScript, MySQL",
-    "content": "TMS (Terminal Management System) Mestika is a sophisticated configuration management platform designed specifically for managing EDC (Electronic Data Capture) devices across Bank Mestika's network. This system streamlines the process of configuring, deploying, and maintaining payment terminals.\\n\\nThe platform provides centralized control over all EDC device configurations, allowing administrators to remotely configure network settings, merchant information, application parameters, and security settings. This eliminates the need for manual on-site configuration, significantly reducing deployment time and operational costs.\\n\\nTMS features include bulk configuration updates, remote firmware management, device health monitoring, and configuration templates for different merchant types. The system maintains a complete audit trail of all configuration changes, ensuring compliance and facilitating troubleshooting.",
-    "gallery": ["/img/TMS/1.png", "/img/TMS/2.png", "/img/TMS/3.png", "/img/TMS/4.png", "/img/TMS/5.png"],
+    "content": "TMS Mestika is a Terminal Management System designed for managing EDC devices across Bank Mestika's network.\n\nThe platform allows centralized remote configuration, firmware management, and device monitoring with full audit trails.",
+    "gallery": [
+      "/img/TMS/1.png",
+      "/img/TMS/2.png",
+      "/img/TMS/3.png",
+      "/img/TMS/4.png",
+      "/img/TMS/5.png"
+    ],
     "features": [
       "Centralized EDC device management",
       "Remote configuration deployment",
-      "Network settings management (IP, Port, Timeout)",
+      "Network settings management",
       "Merchant information configuration",
       "Bulk update capabilities",
-      "Configuration templates",
       "Device status monitoring",
       "Firmware version management",
-      "Complete audit trail",
+      "Audit trail",
       "User access control"
     ],
-    "techStack": ["PHP", "JavaScript", "MySQL", "AJAX", "Bootstrap", "RESTful API"]
+    "techStack": [
+      "PHP",
+      "JavaScript",
+      "MySQL",
+      "AJAX",
+      "Bootstrap",
+      "REST API"
+    ]
   },
   {
     "title": "Monitoring Transactions Bank OCBC",
@@ -87,7 +126,7 @@
   },
   {
     "title": "Services Transaction Cashlez",
-    "description": "A microservices-based architecture that processes payment transactions from Cashlez EDC devices through Cashlez services and integrates the data into Odoo.",
+    "description": "A microservices-based architecture integrating Cashlez EDC transactions into Odoo.",
     "logo": "/logos/vsc.svg",
     "link": "",
     "slug": "services-transaction-cashlez",
@@ -95,21 +134,27 @@
     "stars": 342,
     "forks": 78,
     "language": "Golang",
-    "content": "Services Transaction Cashlez is a robust microservices architecture that serves as a critical integration layer between Cashlez EDC payment devices and the Odoo ERP system. This solution enables seamless flow of transaction data from payment terminals to the business management system.\\n\\nBuilt with Golang for optimal performance and reliability, the service handles high-volume transaction processing with minimal latency. The architecture implements industry-standard security protocols to ensure data integrity and confidentiality throughout the transaction lifecycle.\\n\\nThe system features real-time transaction processing, automatic data transformation and validation, error handling with retry mechanisms, and comprehensive logging for audit purposes. It also includes monitoring capabilities to track system health and transaction success rates.",
-    "gallery": ["/img/Cashlez/Cashlezz.png"],
-    "features": [
-      "Microservices architecture for scalability",
-      "Real-time transaction processing",
-      "Seamless Odoo ERP integration",
-      "Automatic data transformation",
-      "Transaction validation and verification",
-      "Error handling and retry mechanisms",
-      "Comprehensive logging and monitoring",
-      "High-performance concurrent processing",
-      "Secure API communication",
-      "Transaction reconciliation"
+    "content": "Services Transaction Cashlez is a microservices architecture that processes payment transactions from Cashlez EDC devices and integrates them into Odoo ERP.",
+    "gallery": [
+      "/img/Cashlez/Cashlezz.png"
     ],
-    "techStack": ["Golang", "REST API", "Odoo API", "PostgreSQL", "Docker", "Message Queue"]
+    "features": [
+      "Microservices architecture",
+      "Real-time transaction processing",
+      "Odoo ERP integration",
+      "Transaction validation",
+      "Error handling and retry",
+      "Logging and monitoring",
+      "Secure API communication"
+    ],
+    "techStack": [
+      "Golang",
+      "REST API",
+      "Odoo API",
+      "PostgreSQL",
+      "Docker",
+      "Message Queue"
+    ]
   },
   {
     "title": "Yamaha Motor Parts",
@@ -123,14 +168,39 @@
     "language": "Laravel, OctoberCMS, Bootstrap"
   },
   {
-    "title": "Tambah 2",
-    "description": "A company profile website for PT Yamaha Motor Parts Manufacturing Indonesia.",
+    "title": "Hommypay",
+    "description": "A dashboard application for managing Hommypay payment solutions.",
     "logo": "/logos/vsc.svg",
-    "link": "https://yamaha-motor-parts.co.id/",
-    "slug": "yamaha-motor-parts",
-    "image": "/img/Yamaha.png",
-    "stars": 521,
-    "forks": 112,
-    "language": "Laravel, OctoberCMS, Bootstrap"
+    "link": "",
+    "slug": "hommypay-dashboard",
+    "image": "/img/Hommypay/2.png",
+    "stars": 234,
+    "forks": 45,
+    "language": "Golang, Bootstrap, JavaScript, MySQL",
+    "content": "Hommypay Dashboard is a web application to manage and monitor Hommypay payment solutions.\n\nIt provides real-time monitoring, reporting, user management, and secure configuration.",
+    "gallery": [
+      "/img/Hommypay/1.png",
+      "/img/Hommypay/2.png",
+      "/img/Hommypay/3.png",
+      "/img/Hommypay/4.png",
+      "/img/Hommypay/5.png"
+    ],
+    "features": [
+      "Real-time transaction monitoring",
+      "Reporting and analytics",
+      "User management",
+      "Payment gateway configuration",
+      "Role-based access control",
+      "Data encryption",
+      "Responsive design",
+      "Export reports"
+    ],
+    "techStack": [
+      "Golang",
+      "JavaScript",
+      "Bootstrap",
+      "MySQL",
+      "REST API"
+    ]
   }
 ]
