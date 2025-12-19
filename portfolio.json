@@ -121,5 +121,16 @@
     "stars": 521,
     "forks": 112,
     "language": "Laravel, OctoberCMS, Bootstrap"
+  },
+  {
+    "title": Tambah 2",
+    "description": "A company profile website for PT Yamaha Motor Parts Manufacturing Indonesia.",
+    "logo": "/logos/vsc.svg",
+    "link": "https://yamaha-motor-parts.co.id/",
+    "slug": "yamaha-motor-parts",
+    "image": "/img/Yamaha.png",
+    "stars": 521,
+    "forks": 112,
+    "language": "Laravel, OctoberCMS, Bootstrap"
   }
 ]
